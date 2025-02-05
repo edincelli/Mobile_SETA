@@ -1,0 +1,5 @@
+Assets/_ASSETS/* filter=lfs diff=lfs merge=lfs -text
+Assets/_ASSETS/** filter=lfs diff=lfs merge=lfs -text
+
+Assets/_LFS/* filter=lfs diff=lfs merge=lfs -text
+Assets/_LFS/** filter=lfs diff=lfs merge=lfs -text
