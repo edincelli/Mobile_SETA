@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c097c1e74627c4dbef734772bc7fc7, type: 3}
+  m_Name: Call_Scenario_ScamCalllsAndSMS
+  m_EditorClassIdentifier: 
+  contact: {fileID: 11400000, guid: 09558716da9d4834e8cdf1c2d015bd11, type: 2}
+  stages:
+  - info: 0
+    transcript: '[ GREAT COLORADO BANK ]
+
+      Incoming call...'
+    audioClip: {fileID: 0}
+    stageWaitTime: 2
+  - info: 1
+    transcript: Good afternoon, this is Michael Reynolds from the Great Colorado
+      Bank security department. Am I speaking with Mr. Anderson?
+    audioClip: {fileID: 8300000, guid: 11fe66decd4f4c641bde5cdd69f05f00, type: 3}
+    stageWaitTime: 0.5
+  - info: 2
+    transcript: We are calling regarding a suspicious login attempt to your online
+      banking account. We have just detected an attempt to access your account from
+      an unusual location. Did you try to log in just now?
+    audioClip: {fileID: 8300000, guid: c2780b9e6fd84ec4da593b378b12eb47, type: 3}
+    stageWaitTime: 0.5
+  - info: 3
+    transcript: You didn't? In that case, someone else may be trying to access your
+      account. To make sure this is not fraud, we have just sent a security code
+      to your phone. Could you please provide me with the code so we can block the
+      unauthorized login?
+    audioClip: {fileID: 8300000, guid: a6681e4e3e36fd2408df1aac6f0d1f84, type: 3}
+    stageWaitTime: 0.5
+  - info: 4
+    transcript: Thank you, Mr. Anderson. We are now securing your account. Please
+      stay on the line while we complete the process.
+    audioClip: {fileID: 8300000, guid: 07fb22e0eae5e7e4b9c9205a7aa24ecc, type: 3}
+    stageWaitTime: 2
+  - info: 5
+    transcript: Everything is under control. We just need a moment.
+    audioClip: {fileID: 8300000, guid: ac6e2178cbfc69240beb60c0f2907247, type: 3}
+    stageWaitTime: 2
+  - info: 6
+    transcript: Alright, your account is now secured. You should receive a confirmation
+      message soon. Have a great day!
+    audioClip: {fileID: 8300000, guid: 83496a8b89bfc6e43b930f4fd0399521, type: 3}
+    stageWaitTime: 0.9

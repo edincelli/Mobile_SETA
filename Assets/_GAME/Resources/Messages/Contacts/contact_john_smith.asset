@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116625ee54e17bd429939477dc0eb133, type: 3}
+  m_Name: contact_john_smith
+  m_EditorClassIdentifier: 
+  contactName: John Smith
+  contactPhoneNumber: 123-456-7890
+  contactPhoto: {fileID: 21300000, guid: bc2404ae0061a4e46b6d08680eae918e, type: 3}

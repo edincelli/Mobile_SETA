@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c097c1e74627c4dbef734772bc7fc7, type: 3}
+  m_Name: SampleCall
+  m_EditorClassIdentifier: 
+  contact: {fileID: 11400000, guid: 217db985cbf469145a31a57e6f5a94d3, type: 2}
+  stages:
+  - info: 
+    transcript: Good afternoon, this is Michael Reynolds from the Great Colorado
+      Bank security department. Am I speaking with Mr./Ms. Anderson?
+    audioClip: {fileID: 8300000, guid: 38595d192457e8b4a866c2773fecbbc6, type: 3}
+    stageWaitTime: 2
+  - info: 
+    transcript: We are calling regarding a suspicious login attempt to your online
+      banking account. We have just detected an attempt to access your account from
+      an unusual location. Did you try to log in just now?
+    audioClip: {fileID: 8300000, guid: 1de85fd4658acf7418f24a3fe986e6d4, type: 3}
+    stageWaitTime: 2
+  - info: 
+    transcript: You didn't? In that case, someone else may be trying to access your
+      account. To make sure this is not fraud, we have just sent a security code
+      to your phone. Could you please provide me with the code so we can block the
+      unauthorized login?
+    audioClip: {fileID: 8300000, guid: 542fcdac8807fc646bb9dc4d0a94e2de, type: 3}
+    stageWaitTime: 2
