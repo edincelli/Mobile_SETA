@@ -1,7 +1,9 @@
 <p align="center">
 <b> Mobile Security Education, Training, and Awareness (SETA) Artifact </b>
 </p align="center">
-  
+
+**mSETA Prototype:** https://dincelli.com/mseta/
+
 Security Education, Training, and Awareness (SETA) programs are designed to enhance an organization’s security posture by equipping employees with the knowledge and skills needed to recognize and address security threats, such as social engineering. However, SETA programs are often implemented using a one-size-fits-all approach that does not account for unique user characteristics (D’Arcy & Hovav, 2008) and the distinct security challenges posed by different platforms or devices (Tyagi et al., 2020). To the best of our knowledge, SETA programs specifically tailored to address mobile device security remain rare. This represents a critical gap, particularly given the growing reliance on mobile devices driven by remote work and bring-your-own-device (BYOD) trends (Patten & Harris, 2013). In both personal and professional contexts, mobile-specific threats demand specialized strategies and targeted training to ensure effective risk mitigation.
 
 This project aims to address this gap by developing a mobile SETA (mSETA) artifact specifically designed to tackle the unique challenges of securing mobile devices. The mSETA artifact focuses on enhancing mobile security awareness and mindfulness to protect sensitive information in a mobile-first environment and addresses issues such as Smishing, app permissions, mobile-specific malware, insecure networks, romance and finance scams.
@@ -40,7 +42,12 @@ Integrating gamification into mindfulness-based SETA programs could enhance enga
 
 Mobile SETA is developed using the Unity game development engine. Unity is selected for its robust development capabilities, scalability, and cross-platform support. Unity’s advanced 3D and 2D frameworks enable the creation of immersive and realistic training scenarios. Unity also facilitates the integration of gamified features to further improve user engagement and support diverse experimental conditions. Unity’s modular architecture making it easy to implement future updates and add new training modules as needed. Additionally, Unity allows deployment across multiple platforms, including iOS, Android, web, and desktop, ensuring that Mobile SETA is accessible to a wide audience
 
+<p align="center">
 <img src="https://dincelli.com/extras/mseta1.webp" height=400 align="center"/>
+</p>
+<p align="center">
+Figure 1: User Interface of the mSETA Main Screen
+</p>
 
 <p align="left">
 <b> Theory-driven Scenario-Based Training for Mobile-Specific Threats: </b>
@@ -48,12 +55,17 @@ Mobile SETA is developed using the Unity game development engine. Unity is selec
 What sets mSETA apart from traditional internet- and smartphone-based mindfulness programs is its use of realistic simulations that closely replicate real-world mobile-based social engineering scenarios. Unlike passive SETA methods, mSETA guides users through each stage of an attack, allowing them to actively experience the unfolding events and understand the consequences of their decisions. We follow a theory-driven approach to immerse users in simulated security threats and apply theoretical knowledge in practical settings.
 
 For example, to reinforce user engagement and encourage mindfulness about mobile-specific threats, we implemented a consequence system inspired by Prospect Theory, which suggests that individuals are more motivated to avoid losses than to seek equivalent gains (Kim et al., 2016). We applied this principle through scenario-based training that leverages loss aversion to keep users focused and encourage proactive security behaviors. Each poor security decision results in progressively severe consequences, visually represented on a dedicated screen, allowing users to clearly see the cumulative impact of their choices. This approach strengthens mindfulness and motivates users to adopt more secure behaviors to prevent escalating losses.
-
+<p align="center">
 <img src="https://dincelli.com/extras/mseta2.webp" height=400 align="center"/>
+</p>
+<p align="center">
+Figure 2: mSETA Interactive Training Session on Financial Scams
+</p>
 
 <p align="left">
 <b> Measurable Behavioral Outcomes: </b>
 </p align="left">
+
 TBA
 
 **References:**
@@ -62,7 +74,9 @@ TBA
 - D’Arcy, J., & Hovav, A. (2009). Does one size fit all? Examining the differential effects of IS security countermeasures. Journal of Business Ethics, 89, 59-71.
 - Dincelli, E., & Chengalur-Smith, I. (2020). Choose your own training adventure: designing a gamified SETA artefact for improving information security and privacy through interactive storytelling. European Journal of Information Systems, 29(6), 669-687.
 - Jensen, M. L., Dinger, M., Wright, R. T., & Thatcher, J. B. (2017). Training to mitigate phishing attacks using mindfulness techniques. Journal of Management Information Systems, 34(2), 597-626.
+- Kim, J., Lee, J., & Ahn, J. (2016). Reference-dependent preferences on smart phones in South Korea: Focusing on attributes with heterogeneous preference direction. Computers in Human Behavior, 64, 393-400.
 - Langer, E. J. (1989). Mindfulness. Addison-Wesley.
 - Lee, J. S., Kettinger, W. J., & Zhang, C. (2025). Nothing like the real thing! A randomized field experiment of quasi-mixed reality gamified phishing training. ACM SIGMIS Database: the DATABASE for Advances in Information Systems, 56(1), 61-78.
 - Patten, K. P., & Harris, M. (2013). The need to address mobile device security in the higher education IT curriculum. Journal of Information Systems Education, 24(1), 41.
+- Tuunanen, T., Winter, R., & vom Brocke, J. (2024). Dealing with complexity in design science research: A methodology using design echelons. MIS Quarterly, 48(2).
 - Tyagi, A. K., Nair, M. M., Niladhuri, S., & Abraham, A. (2020). Security, privacy research issues in various computing platforms: A survey and the road ahead. Journal of Information Assurance & Security, 15(1).
