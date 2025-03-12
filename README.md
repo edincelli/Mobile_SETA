@@ -31,7 +31,12 @@ What sets mSETA apart from traditional internet- and smartphone-based mindfulnes
 **Features:** TBA
 
 **References:**
+- Bera, D., & Kim, D. J. (2025). The nexus of mindfulness, affect, and information processing in phishing identification: An empirical examination. Information & Management, 62(3), 104110.
+- Creswell, J. D. (2017). Mindfulness interventions. Annual Review of Psychology, 68(1), 491-516.
 - D’Arcy, J., & Hovav, A. (2009). Does one size fit all? Examining the differential effects of IS security countermeasures. Journal of Business Ethics, 89, 59-71.
 - Dincelli, E., & Chengalur-Smith, I. (2020). Choose your own training adventure: designing a gamified SETA artefact for improving information security and privacy through interactive storytelling. European Journal of Information Systems, 29(6), 669-687.
+- Jensen, M. L., Dinger, M., Wright, R. T., & Thatcher, J. B. (2017). Training to mitigate phishing attacks using mindfulness techniques. Journal of Management Information Systems, 34(2), 597-626.
+- Langer, E. J. (1989). Mindfulness. Addison-Wesley.
+- Lee, J. S., Kettinger, W. J., & Zhang, C. (2025). Nothing like the real thing! A randomized field experiment of quasi-mixed reality gamified phishing training. ACM SIGMIS Database: the DATABASE for Advances in Information Systems, 56(1), 61-78.
 - Patten, K. P., & Harris, M. (2013). The need to address mobile device security in the higher education IT curriculum. Journal of Information Systems Education, 24(1), 41.
 - Tyagi, A. K., Nair, M. M., Niladhuri, S., & Abraham, A. (2020). Security, privacy research issues in various computing platforms: A survey and the road ahead. Journal of Information Assurance & Security, 15(1).
