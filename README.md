@@ -8,10 +8,9 @@ This project aims to address this gap by developing a mobile SETA artifact speci
 
 To achieve this, the mobile SETA artifact engages users through an interactive, game-like experience that utilizes scenario-based training. This approach not only improves users’ awareness but also fosters mindfulness by highlighting the differences between secure and insecure behaviors in a mobile context. Users navigate realistic mobile security challenges, such as identifying phishing attempts in SMS messages, configuring secure app settings, and managing permissions effectively. The goal is to deepen users' understanding of mobile-specific threats while equipping them with practical, hands-on skills to mitigate risks in a dynamic and immersive learning environment.
 
-<p align="center">
+<p align="left">
 <b> Development Platform: </b>
-</p align="center">
-
+</p align="left">
 **Development Platform:** Mobile SETA is developed using the Unity game development engine. Unity is selected for its robust development capabilities, scalability, and cross-platform support. Unity’s advanced 3D and 2D frameworks enable the creation of immersive and realistic training scenarios that enhance user engagement and learning outcomes. Unity also facilitates the integration of gamified features to further improve user engagement and support diverse experimental conditions. Unity’s modular architecture supports easy scalability, making it easy to implement future updates and add new training modules as needed. Additionally, Unity allows deployment across multiple platforms, including iOS, Android, web, and desktop, ensuring that Mobile SETA is accessible to a wide audience.
 <Screenshot>
 
